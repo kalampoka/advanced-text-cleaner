@@ -39,3 +39,29 @@ cleaner = AdvancedTextCleaner(
 
 output = cleaner.clean("Your messy text here...")
 print(output)
+```
+## Configuration
+
+You can toggle:
+	•	lowercase
+	•	fix_spacing
+	•	normalize_punctuation
+	•	strip_html
+	•	remove_unicode_noise
+	•	filter_profanity
+	•	clean_emojis
+	•	dataset_mode
+
+## License
+
+This project uses the GNU Affero General Public License v3.0 (AGPL-3.0).
+If you use the code anywhere, even in a web service, you MUST open-source your modifications.
+
+## Contributing
+
+Pull requests welcome, follow standard formatting rules and include tests.
+
+## Notes
+
+This tool is designed for maximum strictness and assumes you want aggressive text cleaning.
+Fine control is available through config flags
