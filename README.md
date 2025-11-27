@@ -25,3 +25,17 @@ This one goes **nuclear**, useful for:
 ## Installation
 ```bash
 pip install -r requirements.txt
+```
+## Usage
+```bash
+from cleaner import AdvancedTextCleaner
+
+cleaner = AdvancedTextCleaner(
+    lowercase=True,
+    fix_spacing=True,
+    remove_unicode_noise=True,
+    filter_profanity=True
+)
+
+output = cleaner.clean("Your messy text here...")
+print(output)
