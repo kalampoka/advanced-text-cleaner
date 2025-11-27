@@ -54,7 +54,7 @@ You can toggle:
 
 ## License
 
-This project is licensed under the MIT License. Feel free to use, distribute, and modify it as per the license terms.
+This project uses the GNU Affero General Public License v3.0 (AGPL-3.0). If you use the code anywhere, even in a web service, you MUST open-source your modifications.
 
 ## Contributing
 
